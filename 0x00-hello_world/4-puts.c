@@ -1,6 +1,5 @@
 vi 5-printf.c
 #include <stdio.h>
-
 /**
  * *main - Entry point
  * *Return: Always 0 (Success)
