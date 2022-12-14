@@ -30,7 +30,7 @@ int main(void)
 	fib22 = fib2 / i;
 	fib222 = fib2 % i;
 
-	for (index + 92; index < 99; index++)
+	for (index = 92; index < 99; index++)
 	{
 		printf(", %lu", fib22 + (fib222 / i));
 		printf("%lu", fib222 % i);
