@@ -11,7 +11,7 @@ int main(void)
 	unsigned long int index;
 	unsigned long int fib1 = 1;
 	unsigned long int fib2 = 2;
-	unsigned long int i = 1000000000;
+	unsigned long int i = 1000000;
 	unsigned long int fib11;
 	unsigned long int fib111;
 	unsigned long int fib22;
