@@ -24,7 +24,7 @@ void print_to_98(int num)
 			}
 		}
 	}
-	else if (num <= 98)
+	else if (num >= 98)
 	{
 		for (num2 = num; num2 >= 98; num2--)
 		{
