@@ -19,7 +19,7 @@ int main(void)
 
 	printf("%lu", fib1);
 
-	for (index = 1; index < 100; index++)
+	for (index = 1; index < 91; index++)
 	{
 		printf(", %lu", fib2);
 		fib2 = fib2 + fib1;
