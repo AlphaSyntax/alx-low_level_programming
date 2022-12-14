@@ -17,7 +17,7 @@ int main(void)
 	unsigned long int fib22;
 	unsigned long int fib222;
 
-	print("%lu", fib1);
+	printf("%lu", fib1);
 
 	for (index = 1; index < 100; index++)
 	{
@@ -39,6 +39,6 @@ int main(void)
 		fib222 += fib111;
 		fib111 = fib222 - fib111;
 	}
-	print("\n");
+	printf("\n");
 	return (0);
 }
