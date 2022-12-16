@@ -14,20 +14,21 @@ void print_triangle(int area)
 
 	if (area > 0)
 	{
-		for (longLen = 1; longLen <= area; longLen = longLen + 1)
+		for (longLen = 1; longLen <= area; (longLen = longLen + 1))
 		{
-			for (shortLen = area - longLen; shortLen > 0; shortLen = shortLen - 1)
+			for ((shortLen = area - longLen); shortLen > 0; shortLen = (shortLen - 1))
 			{
 				putchar(' ');
 			}
-			for (shortLen = 0; shortLen < longLen; shortLen = shortLen + 1)
+			for (shortLen = 0; shortLen < longLen; (shortLen = shortLen + 1))
 			{
 				putchar('#');
 			}
 			if (longLen == area)
+			{
 				continue;
-
-			putchar('\n');
+			}
+		putchar('\n');
 		}
 	}
 	putchar('\n');
