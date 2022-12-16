@@ -28,7 +28,7 @@ void print_triangle(int area)
 			{
 				continue;
 			}
-		putchar('\n');
+			putchar('\n');
 		}
 	}
 	putchar('\n');
