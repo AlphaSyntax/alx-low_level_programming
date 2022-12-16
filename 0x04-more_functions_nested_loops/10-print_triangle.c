@@ -10,21 +10,21 @@
 
 void print_triangle(int area)
 {
-	int longLen, shortLen;
+	int long1, short1;
 
 	if (area > 0)
 	{
-		for (longLen = 1; longLen <= area; (longLen = longLen + 1))
+		for (long1 = 1; long1 <= area; (long1 = long1 + 1))
 		{
-			for ((shortLen = area - longLen); shortLen > 0; shortLen--)
+			for ((short1 = area - long1); short1 > 0; short1--)
 			{
 				putchar(' ');
 			}
-			for (shortLen = 0; shortLen < longLen; (shortLen = shortLen + 1))
+			for (short1 = 0; short1 < long1; (short1 = short1 + 1))
 			{
 				putchar('#');
 			}
-			if (longLen == area)
+			if (long1 == area)
 			{
 				continue;
 			}
