@@ -17,7 +17,7 @@ void print_diagonal(int counter)
 		{
 			for (space = 0; space < length; space = space + 1)
 			{
-				putchar(" ");
+				putchar(' ');
 			}
 			putchar('\\');
 
