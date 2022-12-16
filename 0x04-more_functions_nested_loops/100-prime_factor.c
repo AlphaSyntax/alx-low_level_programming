@@ -19,7 +19,7 @@ int main(void)
 			continue;
 		}
 
-		for (counter = 3; counter < (num / 2); (counter = counter +2))
+		for (counter = 3; counter < (num / 2); (counter = counter + 2))
 		{
 			if (0 == (num % counter))
 			{
