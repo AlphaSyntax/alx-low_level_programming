@@ -16,7 +16,7 @@ void print_triangle(int area)
 	{
 		for (longLen = 1; longLen <= area; (longLen = longLen + 1))
 		{
-			for ((shortLen = area - longLen); shortLen > 0; shortLen = (shortLen - 1))
+			for ((shortLen = area - longLen); shortLen > 0; shortLen--)
 			{
 				putchar(' ');
 			}
