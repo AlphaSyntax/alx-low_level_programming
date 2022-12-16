@@ -34,9 +34,9 @@ int main(void)
 		}
 		else
 		{
-			printf("%d", counter);
+			printf("%d ", counter);
 		}
-		counter = counter + 1;
+	counter = counter + 1;
 	}
 	return (0);
 }
