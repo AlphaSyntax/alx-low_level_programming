@@ -4,7 +4,7 @@
 /**
  * print_triangle - outputs a triangle in the terminal.
  * @area: is the size of the triangle.
- * @#: parameter used toprint triangle.
+ * @#: parameter used to print triangle.
  * Return: no value is returned.
  */
 
