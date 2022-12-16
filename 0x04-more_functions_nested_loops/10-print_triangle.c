@@ -15,16 +15,16 @@ void print_triangle(int area)
 	}
 	else
 	{
-		int longLen, shortLen;
+		int num1, num2;
 
-		for (longLen = 1; longLen <= area; longLen = longLen + 1)
+		for (num1 = 1; num1 <= area; num1++)
 		{
-			for (shortLen = longLen; shortLen < area; shortLen = shortLen + 1)
+			for (num2 = num1; num2 < area; (num2 = num2 + 1))
 			{
 				_putchar(' ');
 			}
 
-			for (shortLen = 1; shortLen <= longLen; shortLen = ShortLen + 1)
+			for (num2 = 1; num2 <= num1; num2++)
 			{
 				_putchar('#');
 			}
