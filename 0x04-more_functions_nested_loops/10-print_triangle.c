@@ -18,18 +18,18 @@ void print_triangle(int area)
 		{
 			for ((short1 = area - long1); short1 > 0; short1--)
 			{
-				putchar(' ');
+				_putchar(' ');
 			}
 			for (short1 = 0; short1 < long1; (short1 = short1 + 1))
 			{
-				putchar('#');
+				_putchar('#');
 			}
 			if (long1 == area)
 			{
 				continue;
 			}
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
