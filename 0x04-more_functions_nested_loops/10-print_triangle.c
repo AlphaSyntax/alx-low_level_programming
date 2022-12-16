@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_triangle - outputs a triangle in the terminal.
@@ -10,26 +9,26 @@
 
 void print_triangle(int area)
 {
-	int long1, short1;
-
-	if (area > 0)
+	if (area <= 0)
 	{
-		for (long1 = 1; long1 <= area; (long1 = long1 + 1))
+		_putchar('\n');
+	}
+	else
+	{
+		int longLen, shortLen;
+
+		for (longLen = 1; longLen <= area; longLen = longLen + 1)
 		{
-			for ((short1 = area - long1); short1 > 0; short1--)
+			for (shortLen = longLen; shortLen < area; shortLen = shortLen + 1)
 			{
 				_putchar(' ');
 			}
-			for (short1 = 0; short1 < long1; (short1 = short1 + 1))
+
+			for (shortLen = 1; shortLen <= longLen; shortLen = ShortLen + 1)
 			{
 				_putchar('#');
 			}
-			if (long1 == area)
-			{
-				continue;
-			}
-			_putchar('\n');
+		_putchar('\n');
 		}
 	}
-	_putchar('\n');
 }
