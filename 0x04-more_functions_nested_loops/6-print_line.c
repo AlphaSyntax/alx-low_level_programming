@@ -11,7 +11,7 @@ void print_line(int counter)
 {
 	while ((counter--)  > 0)
 	{
-		putchar('_');
+		putchar("_");
 	}
 	putchar('\n');
 }
