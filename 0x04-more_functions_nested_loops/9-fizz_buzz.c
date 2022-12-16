@@ -21,7 +21,7 @@ int main(void)
 			if (counter == 100)
 			{
 				printf("Buzz");
-				printf('\n');
+				printf("\n");
 			}
 			else
 			{
