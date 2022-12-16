@@ -9,9 +9,10 @@
 
 void print_line(int counter)
 {
-	while ((counter--)  > 0)
+	while ((counter)  > 0)
 	{
 		putchar("_");
 	}
+	counter = counter - 1;
 	putchar('\n');
 }
