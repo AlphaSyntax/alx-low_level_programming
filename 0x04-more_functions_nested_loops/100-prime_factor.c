@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	int counter
+	int counter;
 	long num = 612852475143;
 
-	while ((counter = counter +1) < (num / 2))
+	while ((++counter) < (num / 2))
 	{
 		if (0 == (num % counter))
 		{
