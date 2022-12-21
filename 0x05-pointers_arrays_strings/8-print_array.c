@@ -21,5 +21,5 @@ void print_array(int *list, int items)
 	{
 		printf("%d", list[items - 1]);
 	}
-	printf('\n');
+	printf("\n");
 }
