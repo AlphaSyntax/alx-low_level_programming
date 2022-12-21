@@ -14,7 +14,7 @@ char *_strcpy(char *strdest, char *strpointer)
 	while (*(strpointer + count) != '\0')
 		count = count + 1;
 
-	for (index = 0; index count; index++)
+	for (index = 0; index < count; index++)
 		strdest[index] = strpointer[index];
 
 	strdest[count] = '\0';
