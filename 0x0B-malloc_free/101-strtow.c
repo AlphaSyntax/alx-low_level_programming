@@ -9,7 +9,7 @@
 
 int count_word(char *s)
 {
-	int extract, coun, word;
+	int extract, count, word;
 
 	extract, word = 0;
 
