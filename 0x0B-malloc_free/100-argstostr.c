@@ -31,7 +31,7 @@ char *argstostr(int ac, char **av)
 	}
 	for (index1 = 0; index1 < ac; index1++)
 	{
-		for (index2; av[index1][index2]; index2++)
+		for (index2 = 0; av[index1][index2]; index2++)
 		{
 			string[counter1] = av[index1][index2];
 			counter1 = counter1 + 1;
