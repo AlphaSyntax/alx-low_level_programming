@@ -18,7 +18,7 @@ int count_word(char *s)
 	{
 		if (s[count] == ' ')
 			extract = 0;
-		else if (extract == 0)
+		if (extract == 0)
 			extract = 1;
 			word = word + 1;
 	}
