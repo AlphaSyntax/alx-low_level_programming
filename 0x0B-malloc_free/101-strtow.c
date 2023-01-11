@@ -21,7 +21,7 @@ int count_word(char *s)
 
 		if (extract == 0)
 			extract = 1;
-			word = word + 1;
+		word = word + 1;
 	}
 	return (word);
 }
@@ -50,6 +50,7 @@ char **strtow(char *str)
 	for (i = 0; i <= length; i++)
 	{
 		if (str[i] == ' ' || str[i] == '\0')
+		{
 			if (count)
 			{
 				last = i;
@@ -65,8 +66,11 @@ char **strtow(char *str)
 				j = j + 1;
 				count = 0;
 			}
+		}
 		else if (count++ == 0)
+		{
 			begin = i;
+		}
 	}
 	matrix[j] = NULL;
 	return (matrix);
