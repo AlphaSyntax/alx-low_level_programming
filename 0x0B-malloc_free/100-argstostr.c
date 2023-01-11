@@ -33,7 +33,7 @@ char *argstostr(int ac, char **av)
 	{
 		for (index2; av[index1][index2]; index2++)
 		{
-			string[index1] = av[index1][index2];
+			string[counter1] = av[index1][index2];
 			counter1 = counter1 + 1;
 		}
 		if (string[counter1] == '\0')
