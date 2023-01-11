@@ -11,7 +11,8 @@ int count_word(char *s)
 {
 	int extract, count, word;
 
-	extract, word = 0;
+	extract = 0;
+	word = 0;
 
 	for (count = 0; s[count] != '\0'; count++)
 	{
